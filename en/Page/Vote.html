@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CUCL form</title>
+    <link rel="stylesheet" href="../css/ustyle.css">
+    <link rel="stylesheet" href="../css/collection.css">
+    <link rel="stylesheet" href="../css/grid.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../js/mustache.js"></script>
+</head>
+
+<body>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-body">
+            <h2 class="modal-head">Alert !</h2>
+            <hr>
+            <p class="modal-content" id="content">Some text in the Modal..</p>
+            <div class="modal-button" id="modal-button">OK</div>
+        </div>
+    </div>
+
+    <div class="votepage">
+        <div class="logo logo-10"></div>
+        <p lang=“en” class="heading">SUPER VOTE</p>
+        <p lang=“en” class="sub-heading">CHOOSE YOUR CUCL 74</p>
+        <p lang=“en” class="sub-heading" style="font-weight:normal; margin: 0.5em 0 -0.9em 0">CHOOSE YOUR Best 3 FINALISTS
+        </p>
+
+        <hr>
+
+        <div class="selector" id="selector">
+            <!-- Begin of contestant list -->
+        </div>
+
+        <div class="wrapper">
+            <div class="button button-wide submit" id="button" onclick='checkSelected("Confirm.html",1)'>
+                <p class="button-content">Next</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="../js/custom.js"></script>
+    <script type="text/javascript" src="../js/vote.js"></script>
+    <script type="text/javascript" src="../js/modal.js"></script>
+    <script>
+        generateCardCode();
+        var $checks = $('input[type="checkbox"]').click(function(e) {
+            var numChecked = $checks.filter(':checked').length;
+            if (numChecked > 3) {
+                ModalDisplay("Only 3 FINALISTS can be selected.");
+                modal.style.display = "flex";
+                this.checked = false;
+            }
+        });
+    </script>
+</body>
+
+</html>

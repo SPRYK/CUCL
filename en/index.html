@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CUCL form</title>
+    <link rel="stylesheet" href="css/ustyle.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-body">
+            <h2 class="modal-head">Alert !</h2>
+            <hr>
+            <p class="modal-content" id="content">Some text in the Modal..</p>
+            <div class="modal-button" id="modal-button">OK</div>
+        </div>
+    </div>
+
+    <div class="homepage">
+        <div class="logo logo-40"></div>
+        <p lang=“en” class="heading">SUPER VOTE</p>
+        <div class="wrapper">
+            <div class="button button-wide" id="button" onclick='gotoPage("Page/Terms.html",CheckSubmit())'>
+                <p lang=“en” class="button-content">CHOOSE YOUR CUCL 74</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/custom.js"></script>
+    <script src="js/modal.js"></script>
+    <script>
+        checkid();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,649 @@
+@font-face {
+  font-family: 'psl';
+  src: url("../fonts/PSL-Display/PSL-DisplayBold.eot");
+  src: url("../fonts/PSL-Display/PSL-DisplayBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PSL-Display/PSL-DisplayBold.woff2") format("woff2"), url("../fonts/PSL-Display/PSL-DisplayBold.woff") format("woff"), url("../fonts/PSL-Display/PSL-DisplayBold.ttf") format("truetype"), url("../fonts/PSL-Display/PSL-DisplayBold.svg#PSL-DisplayBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'psl';
+  src: url("../fonts/PSL-Display/PSL-Display.eot");
+  src: url("../fonts/PSL-Display/PSL-Display.eot?#iefix") format("embedded-opentype"), url("../fonts/PSL-Display/PSL-Display.woff2") format("woff2"), url("../fonts/PSL-Display/PSL-Display.woff") format("woff"), url("../fonts/PSL-Display/PSL-Display.ttf") format("truetype"), url("../fonts/PSL-Display/PSL-Display.svg#PSL-Display") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Superspace-Bold';
+  src: url("../fonts/Superspace/SuperspaceBold.eot");
+  src: url("../fonts/Superspace/SuperspaceBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Superspace/SuperspaceBold.woff2") format("woff2"), url("../fonts/Superspace/SuperspaceBold.woff") format("woff"), url("../fonts/Superspace/SuperspaceBold.ttf") format("truetype"), url("../fonts/Superspace/SuperspaceBold.svg#../fonts/Superspace/SuperspaceBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Superspace-Light-Italic';
+  src: url("../fonts/Superspace/SuperspaceLight-Italic.eot");
+  src: url("../fonts/Superspace/SuperspaceLight-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Superspace/SuperspaceLight-Italic.woff2") format("woff2"), url("../fonts/Superspace/SuperspaceLight-Italic.woff") format("woff"), url("../fonts/Superspace/SuperspaceLight-Italic.ttf") format("truetype"), url("../fonts/Superspace/SuperspaceLight-Italic.svg#../fonts/Superspace/SuperspaceLight-Italic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Superspace-Regular';
+  src: url("../fonts/Superspace/SuperspaceRegular.eot");
+  src: url("../fonts/Superspace/SuperspaceRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/Superspace/SuperspaceRegular.woff2") format("woff2"), url("../fonts/Superspace/SuperspaceRegular.woff") format("woff"), url("../fonts/Superspace/SuperspaceRegular.ttf") format("truetype"), url("../fonts/Superspace/SuperspaceRegular.svg#../fonts/Superspace/SuperspaceRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Superspace-Light-Slant';
+  src: url("../fonts/Superspace/SuperspaceLightSlant.eot");
+  src: url("../fonts/Superspace/SuperspaceLightSlant.eot?#iefix") format("embedded-opentype"), url("../fonts/Superspace/SuperspaceLightSlant.woff2") format("woff2"), url("../fonts/Superspace/SuperspaceLightSlant.woff") format("woff"), url("../fonts/Superspace/SuperspaceLightSlant.ttf") format("truetype"), url("../fonts/Superspace/SuperspaceLightSlant.svg#../fonts/Superspace/SuperspaceLightSlant") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Superspace-Regular-Italic';
+  src: url("../fonts/Superspace/SuperspaceRegular-Italic.eot");
+  src: url("../fonts/Superspace/SuperspaceRegular-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Superspace/SuperspaceRegular-Italic.woff2") format("woff2"), url("../fonts/Superspace/SuperspaceRegular-Italic.woff") format("woff"), url("../fonts/Superspace/SuperspaceRegular-Italic.ttf") format("truetype"), url("../fonts/Superspace/SuperspaceRegular-Italic.svg#../fonts/Superspace/SuperspaceRegular-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Superspace-Bold-Italic';
+  src: url("../fonts/Superspace/SuperspaceBold-Italic.eot");
+  src: url("../fonts/Superspace/SuperspaceBold-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Superspace/SuperspaceBold-Italic.woff2") format("woff2"), url("../fonts/Superspace/SuperspaceBold-Italic.woff") format("woff"), url("../fonts/Superspace/SuperspaceBold-Italic.ttf") format("truetype"), url("../fonts/Superspace/SuperspaceBold-Italic.svg#../fonts/Superspace/SuperspaceBold-Italic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Superspace-Bold-Slant';
+  src: url("../fonts/Superspace/SuperspaceBoldSlant.eot");
+  src: url("../fonts/Superspace/SuperspaceBoldSlant.eot?#iefix") format("embedded-opentype"), url("../fonts/Superspace/SuperspaceBoldSlant.woff2") format("woff2"), url("../fonts/Superspace/SuperspaceBoldSlant.woff") format("woff"), url("../fonts/Superspace/SuperspaceBoldSlant.ttf") format("truetype"), url("../fonts/Superspace/SuperspaceBoldSlant.svg#../fonts/Superspace/SuperspaceBoldSlant") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Superspace-Light';
+  src: url("../fonts/Superspace/SuperspaceLight.eot");
+  src: url("../fonts/Superspace/SuperspaceLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Superspace/SuperspaceLight.woff2") format("woff2"), url("../fonts/Superspace/SuperspaceLight.woff") format("woff"), url("../fonts/Superspace/SuperspaceLight.ttf") format("truetype"), url("../fonts/Superspace/SuperspaceLight.svg#../fonts/Superspace/SuperspaceLight") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Superspace-Regular-Slant';
+  src: url("../fonts/Superspace/SuperspaceRegularSlant.eot");
+  src: url("../fonts/Superspace/SuperspaceRegularSlant.eot?#iefix") format("embedded-opentype"), url("../fonts/Superspace/SuperspaceRegularSlant.woff2") format("woff2"), url("../fonts/Superspace/SuperspaceRegularSlant.woff") format("woff"), url("../fonts/Superspace/SuperspaceRegularSlant.ttf") format("truetype"), url("../fonts/Superspace/SuperspaceRegularSlant.svg#../fonts/Superspace/SuperspaceRegularSlant") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'chula-blod';
+  src: url("../fonts/CHULALONGKORN/CHULALONGKORN-Bold.eot");
+  src: url("../fonts/CHULALONGKORN/CHULALONGKORN-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CHULALONGKORN/CHULALONGKORN-Bold.woff2") format("woff2"), url("../fonts/CHULALONGKORN/CHULALONGKORN-Bold.woff") format("woff"), url("../fonts/CHULALONGKORN/CHULALONGKORN-Bold.ttf") format("truetype"), url("../fonts/CHULALONGKORN/CHULALONGKORN-Bold.svg#CHULALONGKORN-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'clula-reg';
+  src: url("../fonts/CHULALONGKORN/CHULALONGKORN-Regular.eot");
+  src: url("../fonts/CHULALONGKORN/CHULALONGKORN-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/CHULALONGKORN/CHULALONGKORN-Regular.woff2") format("woff2"), url("../fonts/CHULALONGKORN/CHULALONGKORN-Regular.woff") format("woff"), url("../fonts/CHULALONGKORN/CHULALONGKORN-Regular.ttf") format("truetype"), url("../fonts/CHULALONGKORN/CHULALONGKORN-Regular.svg#CHULALONGKORN-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  line-height: 1.5em;
+  font-family: psl;
+  font-weight: bold;
+  background-color: white;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    font-size: 40px;
+  }
+}
+
+.modal {
+  position: fixed;
+  display: none;
+  height: 100vh;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal .modal-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 1.25em;
+  background-color: #fefefe;
+  border-radius: 0.5em;
+  width: 70%;
+  min-height: 30vh;
+}
+
+.modal .modal-head {
+  font-size: 3em;
+  margin-top: 0.3em;
+}
+
+.modal .modal-content {
+  text-align: center;
+  font-size: 1em;
+}
+
+.modal .modal-button {
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  border-radius: 1em;
+  position: relative;
+  cursor: pointer;
+  margin-top: 1.5em;
+  background: black;
+  padding: 0em 1em;
+}
+
+.modal hr {
+  display: block;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 0.1em solid black;
+  border-style: inset;
+  width: 100%;
+}
+
+.homepage {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em;
+}
+
+.homepage .heading {
+  margin-top: 0.3em;
+  font-size: 2.5em;
+}
+
+.homepage .condition {
+  width: 95%;
+  font-size: 0.7em;
+  line-height: 1.5em;
+  font-family: psl;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.homepage .condition .item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.homepage .condition .item p {
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+
+.homepage .hashtag {
+  font-size: 1.25em;
+  margin-top: auto;
+  margin-bottom: 1em;
+}
+
+.votepage,
+.confirmpage {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5em 1em;
+}
+
+.votepage .heading,
+.confirmpage .heading {
+  margin-top: 0.5em;
+  font-size: 1.8em;
+  line-height: 0.5em;
+}
+
+.votepage .sub-heading,
+.confirmpage .sub-heading {
+  font-size: 1em;
+}
+
+.votepage .voteposition,
+.confirmpage .voteposition {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}
+
+.votepage .preview-container,
+.confirmpage .preview-container {
+  width: 40vh;
+  height: 40vh;
+}
+
+.votepage .preview-container .preview,
+.confirmpage .preview-container .preview {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.votepage .contestant-name,
+.confirmpage .contestant-name {
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+
+.votepage .contestant-content,
+.confirmpage .contestant-content {
+  font-size: 1em;
+  line-height: 1em;
+  margin-top: 1em;
+  width: 80%;
+  font-family: psl;
+  font-weight: normal;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.votepage .bottom,
+.confirmpage .bottom {
+  width: 100%;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: auto;
+}
+
+.votepage .bottom .heading,
+.confirmpage .bottom .heading {
+  margin-top: 0.5em;
+  font-size: 1.8em;
+  line-height: 0.5em;
+}
+
+.votepage .bottom .button-group,
+.confirmpage .bottom .button-group {
+  width: 100%;
+  height: auto;
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.votepage .hashtag,
+.confirmpage .hashtag {
+  margin-top: auto;
+  text-align: center;
+  vertical-align: center;
+  width: 100%;
+  height: 10vh;
+  font-size: 1.25em;
+  bottom: 7vh;
+}
+
+.confirmpage {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.finishpage {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5em 1em;
+}
+
+.finishpage .heading {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.8em;
+}
+
+.finishpage .content-container {
+  height: auto;
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 1.5em;
+}
+
+.finishpage .content-container .content-heading {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+  line-height: 1em;
+}
+
+.finishpage .content-container .content {
+  margin: 0.3em 0em;
+  font-size: 0.9em;
+  font-weight: normal;
+  line-height: 1em;
+  width: 100%;
+}
+
+.finishpage .content-container .center {
+  text-align: center;
+}
+
+.finishpage .hashtag {
+  margin-top: auto;
+  text-align: center;
+  font-size: 1.25em;
+  margin-bottom: 0.1em;
+}
+
+.wrapper {
+  font-size: 1em;
+  position: relative;
+  width: auto;
+  height: auto;
+  margin-top: 0.8em;
+  max-width: 50vw;
+}
+
+.button {
+  font-size: 1em;
+  width: 100%;
+  border: 0.1em solid black;
+  border-radius: 0.2em;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: white;
+  padding: 0em 1em;
+}
+
+.button > p {
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.button:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.button-wide:before {
+  top: 0%;
+  left: -100%;
+}
+
+.button-wide:hover:before {
+  left: 0;
+}
+
+.button:hover p {
+  font-size: 1em;
+  color: white;
+}
+
+.logo {
+  background-image: url(../images/logo.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logo.logo-10 {
+  height: 10vh;
+  width: 10vh;
+}
+
+.logo.logo-20 {
+  height: 20vh;
+  width: 20vh;
+}
+
+.logo.logo-40 {
+  height: 40vh;
+  width: 40vh;
+}
+
+.height10 {
+  height: 10vh;
+}
+
+.height20 {
+  height: 20vh;
+}
+
+.height30 {
+  height: 30vh;
+}
+
+.height40 {
+  height: 40vh;
+}
+
+.height50 {
+  height: 50vh;
+}
+
+.height60 {
+  height: 60vh;
+}
+
+.height70 {
+  height: 70vh;
+}
+
+.height80 {
+  height: 80vh;
+}
+
+.height90 {
+  height: 90vh;
+}
+
+.height100 {
+  height: 100vh;
+}
+
+.heightauto {
+  height: auto;
+}
+
+.flex-center-top {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+hr {
+  display: block;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 0.1em solid black;
+  border-style: inset;
+  width: 80%;
+}
+
+.round {
+  font-size: 0.8em;
+  width: 1.5em;
+  height: 1.5em;
+  position: relative;
+}
+
+.round label {
+  width: 1.5em;
+  height: 1.5em;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 0.05em solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.round label:after {
+  border: 0.1em solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 0.3em;
+  left: 0.35em;
+  opacity: 0;
+  position: absolute;
+  top: 0.4em;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  width: 0.6em;
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+  z-index: 100;
+}
+
+.round input[type="checkbox"]:checked + label {
+  background-color: #66bb6a;
+  border-color: #66bb6a;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+/*# sourceMappingURL=ustyle.css.map */

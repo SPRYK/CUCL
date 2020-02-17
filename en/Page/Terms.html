@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CUCL form</title>
+    <link rel="stylesheet" href="../css/ustyle.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-body">
+            <h2 class="modal-head">Alert !</h2>
+            <hr>
+            <p class="modal-content" id="content">Some text in the Modal..</p>
+            <div class="modal-button" id="modal-button">OK</div>
+        </div>
+    </div>
+
+    <div class="homepage height20">
+        <div class="logo logo-20"></div>
+    </div>
+
+    <hr>
+
+    <div class="homepage height70 flex-center-top">
+        <div class="condition">
+            <div class="item">
+                <p class="number">1.</p>
+                <p lang=“en” class="content">Voter must be a current bachelor's student of Chulalongkorn University.</p>
+            </div>
+            <div class="item">
+                <p class="number">2.</p>
+                <p lang=“en” class="content">Choose your 3 most favorite FINALISTS to be CU CHEERLEADER 74 , regardless of gender.
+                </p>
+            </div>
+            <div class="item">
+                <p class="number">3.</p>
+                <p lang=“en” class="content">Your vote cannot be changed after pressing on the “confirm” button.</p>
+            </div>
+            <div class="item">
+                <p class="number">4.</p>
+                <p lang=“en” class="content">You can vote one time for one ID only.</p>
+            </div>
+            <div class="item">
+                <p class="number">5.</p>
+                <p lang=“en” class="content">The finalist who receives the highest number of votes (including other channels) will instantly be CU CHEERLEADER 74.</p>
+            </div>
+        </div>
+        <div class="wrapper" style="margin-top:2em; margin-right:2em; align-self:flex-end;">
+            <div class="button button-wide submit" id="button" onclick='gotoPage("Vote.html",1)'>
+                <p class="button-content">Next</p>
+            </div>
+        </div>
+        <p lang=“en” class="hashtag">#CUCL74SUPERVOTE</p>
+    </div>
+
+    <script type="text/javascript" src="../js/modal.js"></script>
+    <script type="text/javascript" src="../js/custom.js"></script>
+</body>
+
+</html>
